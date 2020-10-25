@@ -17,9 +17,9 @@ public class Game : MonoBehaviour
 
     private float _timer;
 
-    public AudioSource GhostAudioSource;
-    public AudioSource PlayerDeathAudioSource;
-    public AudioSource BulletAudioSource;
+    // public AudioSource GhostAudioSource;
+    // public AudioSource PlayerDeathAudioSource;
+    // public AudioSource BulletAudioSource;
 
     private GameObject _player;
 
@@ -34,7 +34,7 @@ public class Game : MonoBehaviour
         if (Globals.RandomNum == null)
             Globals.RandomNum = new System.Random();
 
-        Globals.BulletAudioSource = BulletAudioSource;
+        // Globals.BulletAudioSource = BulletAudioSource;
 
         _player = (GameObject)GameObject.Instantiate(Player, new Vector3(0, 0, 0), Quaternion.identity);
         ResetGame();
@@ -72,7 +72,7 @@ public class Game : MonoBehaviour
 
             if (Globals.Health == 0)
             {
-                PlayerDeathAudioSource.Play();
+                // PlayerDeathAudioSource.Play();
                 Globals.CurGameState = GameState.GameOver;
                 //kill player, game over
                 GameOverPanel.SetActive(true);
@@ -101,14 +101,13 @@ public class Game : MonoBehaviour
 
     private void SpawnGhost()
     {
-        /*
         int index = Globals.RandomNum.Next(Globals.StartingPoints.Length);
 
         Vector3 vec = Globals.StartingPoints[index];
         GameObject ghost = (GameObject)Instantiate(Ghost, vec, Quaternion.identity);
         ghost.GetComponent<Ghost>().Player = _player;
 
-        ghost.GetComponent<Ghost>().GhostSurvival += Leaderboards.GhostSurvivalHandler;
+        // ghost.GetComponent<Ghost>().GhostSurvival += Leaderboards.GhostSurvivalHandler;
 
 
         //rotate as necessary
@@ -145,9 +144,8 @@ public class Game : MonoBehaviour
         if (Globals.DifficultyLevel == 2)
             _playSound = !_playSound;
 
-        if(_playSound)
-            GhostAudioSource.Play();
-        */
+        // if(_playSound)
+        //     GhostAudioSource.Play();
     }
 
 

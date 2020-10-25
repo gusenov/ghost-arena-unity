@@ -35,7 +35,7 @@ public class Globals : MonoBehaviour
 
     public static GameState CurGameState;
 
-    public static AudioSource BulletAudioSource;
+    // public static AudioSource BulletAudioSource;
 
     // public static Dictionary<LeaderboardType, List<LeaderboardData>> Leaderboards;
 }
