@@ -111,7 +111,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButton("Fire1") && !_bulletFired)
             {
                 //spawn bullet
-                // Globals.BulletAudioSource.Play();
+                Globals.BulletAudioSource.Play();
                 GameObject bullet = (GameObject)Instantiate(Bullet, transform.position, transform.rotation);
                 _nextFireTime -= _fireRate;
                 _bulletFired = true;
