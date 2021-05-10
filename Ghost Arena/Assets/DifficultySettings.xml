@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DifficultySystem>
+	<DefaultSetting>1</DefaultSetting>
+	<settings>
+		<setting name="Easy">
+			<GhostHealth>1</GhostHealth>
+			<GhostSpeed>3.0</GhostSpeed>
+			<HealthDrain>2</HealthDrain>
+			<GhostSpawnTime>3</GhostSpawnTime>
+			<GhostScore>1</GhostScore>
+		</setting>
+		<setting name="Normal">
+			<GhostHealth>2</GhostHealth>
+			<GhostSpeed>3.5</GhostSpeed>
+			<HealthDrain>4</HealthDrain>
+			<GhostSpawnTime>2</GhostSpawnTime>
+			<GhostScore>2</GhostScore>
+		</setting>
+		<setting name="Hard">
+			<GhostHealth>3</GhostHealth>
+			<GhostSpeed>4.0</GhostSpeed>
+			<HealthDrain>8</HealthDrain>
+			<GhostSpawnTime>1</GhostSpawnTime>
+			<GhostScore>3</GhostScore>
+		</setting>
+	</settings>
+</DifficultySystem>

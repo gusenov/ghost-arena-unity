@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArrayOfAchievement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Achievement>
+    <ID>1</ID>
+    <Name>Dodger</Name>
+    <Points>5</Points>
+    <Description>Do not get touched by a ghost once during a level</Description>
+  </Achievement>
+  <Achievement>
+    <ID>2</ID>
+    <Name>Unstoppable</Name>
+    <Points>10</Points>
+    <Description>Do not die once in a level</Description>
+  </Achievement>
+  <Achievement>
+    <ID>3</ID>
+    <Name>The Quick and the Dead</Name>
+    <Points>5</Points>
+    <Description>Defeat a level under par time</Description>
+  </Achievement>
+  <Achievement>
+    <ID>4</ID>
+    <Name>Eagle Eye</Name>
+    <Points>10</Points>
+    <Description>Get 95% or greater hit/miss ratio in a level</Description>
+  </Achievement>
+</ArrayOfAchievement>
