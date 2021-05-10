@@ -95,7 +95,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -203,8 +203,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 436cff0f7cfd39f95a6ac4d4d4f7fad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0
-  Bullet: {fileID: 0}
+  Speed: 1
+  Bullet: {fileID: 62377235480442448, guid: 2f86f87df3e34be15849f8985a50bf32, type: 3}
   CharacterAnimator: {fileID: 1700703736}
 --- !u!95 &1700703736
 Animator:

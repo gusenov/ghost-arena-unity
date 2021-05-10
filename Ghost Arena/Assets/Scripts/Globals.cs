@@ -37,7 +37,7 @@ public class Globals : MonoBehaviour
 
     public static AudioSource BulletAudioSource;
 
-    // public static Dictionary<LeaderboardType, List<LeaderboardData>> Leaderboards;
+    public static Dictionary<LeaderboardType, List<LeaderboardData>> Leaderboards;
 }
 
 public enum GameState

@@ -470,7 +470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &369634485
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1534,6 +1534,8 @@ MonoBehaviour:
   GhostAudioSource: {fileID: 316773237}
   PlayerDeathAudioSource: {fileID: 256468306}
   BulletAudioSource: {fileID: 391337705}
+  Leaderboards: {fileID: 0}
+  Achievements: {fileID: 0}
 --- !u!1 &1867257316
 GameObject:
   m_ObjectHideFlags: 0

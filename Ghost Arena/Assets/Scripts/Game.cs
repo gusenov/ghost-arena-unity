@@ -25,8 +25,8 @@ public class Game : MonoBehaviour
 
     private bool _playSound;
 
-    // public LeaderboardsManager Leaderboards;
-    // public AchievementsManager Achievements;
+    public LeaderboardsManager Leaderboards;
+    public AchievementsManager Achievements;
 
     // Start is called before the first frame update
     void Start ()
